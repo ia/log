@@ -14,9 +14,9 @@ theme: minima
 base_url: /log
 repository: ia/log
 ## local
-url: http://127.0.0.1:8080
+#url: http://127.0.0.1:8080
 ## global
-#url: https://ia.github.io
+url: https://ia.github.io
 
 # favicon.ico override
 favicon: assets/images/cli.ico
