@@ -1,7 +1,7 @@
 ---
-permalink: /archive
+permalink: /logs
 layout: page
-title: Blog archive
+title: Logs
 ---
 
 

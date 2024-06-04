@@ -1,19 +1,31 @@
-title: My blog
-description: My very nice blog
-author: "Jorge Sanz"
+# top left
+title: log
+
+# bottom right
+description: CC BY-NC-ND 4.0
+
+# bottom left
+author: "ia"
 
 theme: minima
 
-base_url: /gh-pages-minima-starter
-repository: jsanz/gh-pages-minima-starter
+base_url: /log
+repository: ia/log
 
 # Minima social links
-github_username: jsanz
-linkedin_username: jsanz
-rss: rss
+github_username: ia
+#linkedin_username:
+#rss: rss
 
 # Minima: show excerpts in the frontpage
 show_excerpts: true
+
+gems:
+  - jekyll-paginate
+  - jekyll-redirect-from
+
+paginate: 10
+paginate_path: posts/page:num/
 
 minima:
   date_format: "%Y-%m-%d"
@@ -27,10 +39,11 @@ header_pages:
 include:
     - _pages
 
-exclude: 
+exclude:
     - .gitignore
     - docker-compose.yml
     - Gemfile
     - Gemfile.lock
     - LICENSE
     - README.md
+

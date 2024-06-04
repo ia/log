@@ -261,6 +261,8 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   webrick (~> 1.8)
+  jekyll-paginate
+  jekyll-redirect-from
 
 BUNDLED WITH
    2.4.20
