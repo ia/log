@@ -1,3 +1,6 @@
+repository: ia/log
+favicon: /assets/images/cli.ico
+
 # top left
 title: log
 
@@ -10,16 +13,13 @@ author: "Ivan Zorin"
 # default theme
 theme: minima
 
-# set url, base url & github repo
-base_url: /log
-repository: ia/log
-## local
-#url: http://127.0.0.1:8080
-## global
+## local url
+#url: http://127.0.0.1:8080/
+## global url
 url: https://ia.github.io
 
-# favicon.ico override
-favicon: assets/images/cli.ico
+# base url
+base_url: /log
 
 # Social platforms if any
 github_username: ia
@@ -31,10 +31,6 @@ show_excerpts: true
 
 plugins:
   - jekyll-redirect-from
-#  - jekyll-paginate
-
-#paginate: 5
-#paginate_path: "/posts/page:num/"
 
 # Date format for timestamps in posts
 minima:

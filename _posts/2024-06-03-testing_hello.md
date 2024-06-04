@@ -5,7 +5,14 @@ layout: post
 redirect_from: /hello
 ---
 
+
 Hello, World! Hello, friend.
+
+
+<!-- ^^^^ for POSTS only - put it AFTER "CUT" ^^^^ -->
+<!-- this is the magic line to make favicon work for posts because otherwise the modern web would be too simple & easy if we could just set favicon=path globally, right? -->
+<link rel="shortcut icon" type="image/x-icon" href="{{ site.base_url }}{% link /assets/images/cli.ico %}?">
+
 
 Testing, testing.
 
@@ -29,7 +36,7 @@ function helloWorld(param1, param2) {
 }
 ```
 
-{% highlight c %}
+```c
 #include <stdio.h>
 
 int main(int argc, const char *argv[])
@@ -37,4 +44,5 @@ int main(int argc, const char *argv[])
 	printf("test\n");
 	return 0;
 }
-{% endhighlight %}
+```
+

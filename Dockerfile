@@ -13,6 +13,7 @@ COPY ./Gemfile* /srv/jekyll
 
 # Update the Ruby bundler and install Jekyll
 RUN gem update bundler && bundle install
+RUN bundle update github-pages
 
 EXPOSE 8080
 
