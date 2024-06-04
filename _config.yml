@@ -5,14 +5,23 @@ title: log
 description: CC BY-NC-ND 4.0
 
 # bottom left
-author: "ia"
+author: "Ivan Zorin"
 
+# default theme
 theme: minima
 
+# set url, base url & github repo
 base_url: /log
 repository: ia/log
+## local
+url: http://127.0.0.1:8080
+## global
+#url: https://ia.github.io
 
-# Minima social links
+# favicon.ico override
+favicon: assets/images/cli.ico
+
+# Social platforms if any
 github_username: ia
 #linkedin_username:
 #rss: rss
@@ -20,24 +29,27 @@ github_username: ia
 # Minima: show excerpts in the frontpage
 show_excerpts: true
 
-gems:
-  - jekyll-paginate
+plugins:
   - jekyll-redirect-from
+#  - jekyll-paginate
 
-paginate: 10
-paginate_path: posts/page:num/
+#paginate: 5
+#paginate_path: "/posts/page:num/"
 
+# Date format for timestamps in posts
 minima:
-  date_format: "%Y-%m-%d"
+  date_format: "%Y.%m.%d"
 
-# Minima: custom header links
+# Minima: custom header links - order matters!
 header_pages:
   - _pages/frontpage.md
-  - _pages/about.md
   - _pages/archive.md
+  - _pages/source.md
+  - _pages/about.md
 
 include:
     - _pages
+    - favicon.ico
 
 exclude:
     - .gitignore
@@ -46,4 +58,9 @@ exclude:
     - Gemfile.lock
     - LICENSE
     - README.md
+
+# Alternative and extended markdown flavor
+#kramdown:
+#  syntax_highlighter: rouge
+#  input: GFM
 

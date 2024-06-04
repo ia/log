@@ -1,6 +1,6 @@
 ---
-permalink: /about
-title: About
+permalink: /me
+title: /me
 redirect_to: https://ia.github.io/
 ---
 
