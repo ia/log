@@ -16,7 +16,6 @@ COPY ./Gemfile* /srv/jekyll
 # # if it still doesn't work - run:
 # $ docker-compose  -f docker-compose.yml  run  -p 8080:8080  -p 50000:50000  --rm  jekyll
 # two or maybe even three times - usually it helps for local instance.
-
 RUN gem update bundler
 RUN bundle update github-pages || bundle install
 RUN bundle install
