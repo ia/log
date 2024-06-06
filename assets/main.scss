@@ -6,7 +6,7 @@
 @import "minima";
 
 
-// set custom font, font family and its color
+// font tweaking
 
 // // Ubuntu font
 // @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
@@ -15,10 +15,31 @@
 //     color: #111111;
 // }
 
-// // Google font
-@import url('https://fonts.googleapis.com/css?family=Open%20Sans&display=swap');
+// // Google font, source: P0 blog
+// @import url('https://fonts.googleapis.com/css?family=Open%20Sans&display=swap');
+// body {
+// 	font-family: 'Open Sans', sans-serif;
+// 	color: #111111;
+// }
+
+// // Segoe UI, source: github
+// @import url('https://fonts.googleapis.com/css?family=Segoe%20UI&display=swap');
+// body {
+// 	font-family: 'Segoe UI', sans-serif;
+// 	color: #111111;
+// }
+
+// // Roboto, source: my page
+// @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+// use local file with fonts instead of making 3rd party requests to google fonts
+@font-face {
+	font-family: "Roboto";
+	src: url("../assets/fonts/Roboto.woff2")
+}
+
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #111111;
 }
 
