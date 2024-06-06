@@ -54,16 +54,34 @@ body {
 }
 
 
-// override background color for syntax highlighting code blocks
+// // Reference colors:
+// // // GitHub header:            #TBA;
+// // // GitHub/Markdown listing:  #TBA;
+// // // Apple Docs listing:       #f5f5f7;
+
+// override for syntax highlight of code blocks:
+// - background colors
+// - border style and its colors
+
+$log-code-color-bg:            #f5f5f7;
+$log-code-color-border-line:   #cccccc;
+$log-code-color-border-block:  #bbbbbb;
+
 pre {
-	background-color: #f5f5f7;
+	// this is style block for border radius of large code blocks
+	background-color: $log-code-color-bg;
+	border: 1px solid $log-code-color-border-block;
+	border-radius: 10px;
 }
 code {
-	background-color: #f5f5f7;
-	font-size:14px; // code font size is bigger than text font size by default
+	// this is style block for one-line code blocks
+	font-size: 14px; // code font size is bigger than text font size by default
+	background-color: $log-code-color-bg;
+	border: 1px solid $log-code-color-border-line;
+	border-radius: 5px;
 }
 .highlight .highlight {
-	background-color: #f5f5f7;
+	background-color: $log-code-color-bg;
 }
 
 
