@@ -85,3 +85,14 @@ code {
 }
 
 
+// site page footer fixup:
+// - fix centering of text & elements from subsections in the footer
+// - remove empty useless gigantic space on the bottom
+.site-footer {
+	text-align: center;
+	padding: 4px;
+	min-height: 24px;
+	// height: 25px;
+}
+
+
