@@ -44,9 +44,13 @@ body {
 }
 
 
-// remove eye-irritating useless and pointless black bar on the top of each page
+// site page header fixup:
+// - remove eye-irritating useless and pointless black bar on the top of each page
+// - remove empty useless gigantic space on the top
 .site-header {
 	border-top: none;
+	min-height: 48px;
+	height: 48px;
 }
 
 
