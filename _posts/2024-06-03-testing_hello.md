@@ -16,6 +16,8 @@ Hello, World! Hello, friend.
 
 Testing, testing.
 
+This is testing page. And this is `single line monospace` text.
+
 <img src="{{ site.base_url }}{% link /assets/images/testing.jpg %}">
 
 ```js
