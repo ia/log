@@ -1,6 +1,6 @@
 ---
 permalink: /src
-title: /src   ➤
+title: /src 🌐
 redirect_to: https://github.com/ia/log
 ---
 

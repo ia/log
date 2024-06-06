@@ -11,8 +11,9 @@ title: /logs
 
 <ul>
   {% for post in site.posts %}
-    <li>
-      {{post.date | date: "%Y-%m-%d" }} // <a href=".{{ post.url }}">{{ post.title }}</a>
-    </li>
+    ∙ {{post.date | date: "%Y.%m.%d" }} ∙ <a href=".{{ post.url }}">{{ post.title }}</a>
+    <br>
+<!-- ^^^^ <br> instead of <li></li> -->
   {% endfor %}
 </ul>
+

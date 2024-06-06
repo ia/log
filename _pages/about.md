@@ -1,6 +1,6 @@
 ---
 permalink: /me
-title: /me   ➤
+title: /me 🌐
 redirect_to: https://ia.github.io/
 ---
 

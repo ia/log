@@ -54,6 +54,7 @@ exclude:
     - Gemfile.lock
     - LICENSE
     - README.md
+    - _posts/00template.md
 
 # Alternative and extended markdown flavor
 #kramdown:
