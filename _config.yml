@@ -36,12 +36,10 @@ plugins:
 minima:
   date_format: "%Y.%m.%d"
 
-# Minima: custom header links - order matters!
+# Minima: custom header links in the top right corner, order matters!
 header_pages:
   - _pages/frontpage.md
   - _pages/archive.md
-  - _pages/source.md
-  - _pages/about.md
 
 include:
     - _pages
