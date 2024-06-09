@@ -10,10 +10,19 @@ title: /logs
 
 
 <ul>
+
   {% for post in site.posts %}
-    ∙ {{post.date | date: "%Y.%m.%d" }} ∙ <a href=".{{ post.url }}">{{ post.title }}</a>
-    <br>
-<!-- ^^^^ <br> instead of <li></li> -->
+
+  <li>
+
+    <!-- vvvv https://stackoverflow.com/a/45147949 -->
+    {% assign description = post.excerpt | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | truncatewords: 10 %}
+
+    {{post.date | date: "%Y.%m.%d" }} // <a href=".{{ post.url }}">{{ post.title }}</a> { {{ description }} };
+
+  </li>
+
   {% endfor %}
+
 </ul>
 
