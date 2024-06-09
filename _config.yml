@@ -7,14 +7,14 @@ title: log
 # bottom right
 description: CC BY-NC-ND 4.0
 
-# bottom left
-author: "Ivan Zorin"
+# ~~bottom left~~
+author: ia
 
 # default theme
 theme: minima
 
 ## local url
-#url: http://127.0.0.1:8080/
+#url: http://127.0.0.1:8080
 ## global url
 url: https://ia.github.io
 
@@ -34,12 +34,13 @@ plugins:
 
 # Date format for timestamps in posts
 minima:
-  date_format: "%Y.%m.%d"
+  date_format: "%Y.%m.%d @ %H:%M"
 
 # Minima: custom header links in the top right corner, order matters!
 header_pages:
   - _pages/frontpage.md
   - _pages/archive.md
+  - _pages/rss.md
 
 include:
     - _pages
