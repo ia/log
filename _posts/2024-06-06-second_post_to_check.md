@@ -1,9 +1,8 @@
 ---
-layout: post
 title: Second post
 date: 2024-06-06 11:11:11
 redirect_from: /second
-category: testing markdown
+layout: post
 ---
 
 

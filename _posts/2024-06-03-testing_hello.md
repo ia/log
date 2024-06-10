@@ -1,9 +1,8 @@
 ---
-layout: post
 title: Soundcheck
 date: 2024-06-03 23:55:11
 redirect_from: /hello
-category: markdown
+layout: post
 ---
 
 

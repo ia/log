@@ -1,8 +1,8 @@
 ---
-layout: post
 title: $TITLE
 date: $TIMESTAMP
-#redirect_from: /$SHORT_TITLE
+redirect_from: /$SHORT_TITLE
+layout: post
 ---
 
 
