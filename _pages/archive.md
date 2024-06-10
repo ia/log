@@ -18,7 +18,7 @@ title: /logs
     <!-- vvvv https://stackoverflow.com/a/45147949 -->
     {% assign description = post.excerpt | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip | truncatewords: 10 %}
 
-    {{post.date | date: "%Y.%m.%d" }} // <a href=".{{ post.url }}">{{ post.title }}</a> { {{ description }} };
+    {{ post.date | date: site.minima.date_format }} // <a href=".{{ post.url }}">{{ post.title }}</a> { {{ description }} };
 
   </li>
 
