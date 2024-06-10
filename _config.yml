@@ -34,7 +34,7 @@ plugins:
 
 # Date format for timestamps in posts
 minima:
-  date_format: "%Y.%m.%d @ %H:%M"
+  date_format: "%Y.%m.%d @ <i>%H:%M</i>"
 
 # Minima: custom header links in the top right corner, order matters!
 header_pages:
