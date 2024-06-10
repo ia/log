@@ -1,8 +1,9 @@
 ---
-title: "Soundcheck"
-date: 2024-06-03
 layout: post
+title: Soundcheck
+date: 2024-06-03 23:55:11
 redirect_from: /hello
+category: markdown
 ---
 
 
@@ -18,7 +19,12 @@ Testing, testing.
 
 This is testing page. And this is `single line monospace` text.
 
-<img src="{{ site.base_url }}{% link /assets/images/testing.jpg %}">
+<!--<img src="{{ site.base_url }}{% link /assets/images/testing.jpg %}">-->
+
+<!-- this is how to place an image for the blog from the repo: -->
+![Testing]({{ site.base_url }}{% link /assets/images/testing.jpg %})
+<!-- this is how to place an image for md file from the repo: -->
+![](../master/assets/images/testing.jpg)
 
 ```js
 /**
