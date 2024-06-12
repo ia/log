@@ -1,62 +1,58 @@
+# repo user/name
 repository: ia/log
+
+# favicon auto variable
 favicon: /assets/images/cli.ico
 
 # top left
 title: log
 
-# bottom right
+# bottom right // overridden manually
 description: CC BY-NC-ND 4.0
 
-# ~~bottom left~~
+# author auto tagging
 author: ia
 
 # default theme
 theme: minima
 
-## local url
-#url: http://127.0.0.1:8080
-## global url
+# site url
 url: https://ia.github.io
 
-# base url
+# base url on site
 base_url: /log
 
-# Social platforms if any
+# gh account
 github_username: ia
-#linkedin_username:
-#rss: rss
 
-# Minima: show excerpts in the frontpage
+# minima: show excerpts in the frontpage
 show_excerpts: true
 
 plugins:
   - jekyll-redirect-from
 
-# Date format for timestamps in posts
+# date format for timestamps in posts
 minima:
   date_format: "%Y.%m.%d @ <i>%H:%M</i>"
 
-# Minima: custom header links in the top right corner, order matters!
+# minima: custom header links in the top right corner, order matters!
 header_pages:
   - _pages/main.md
   - _pages/posts.md
   - _pages/rss.md
 
+# list of files to be copied into / on-site
 include:
-    - _pages
-    - favicon.ico
+  - _pages
+  - favicon.ico
 
+# list of files to ignore
 exclude:
-    - .gitignore
-    - docker-compose.yml
-    - Gemfile
-    - Gemfile.lock
-    - LICENSE
-    - README.md
-    - _posts/00template.md
-
-# Alternative and extended markdown flavor
-#kramdown:
-#  syntax_highlighter: rouge
-#  input: GFM
+  - .gitignore
+  - docker-compose.yml
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - _posts/00template.md
 
