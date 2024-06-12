@@ -38,8 +38,8 @@ minima:
 
 # Minima: custom header links in the top right corner, order matters!
 header_pages:
-  - _pages/frontpage.md
-  - _pages/archive.md
+  - _pages/main.md
+  - _pages/posts.md
   - _pages/rss.md
 
 include:
