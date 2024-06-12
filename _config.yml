@@ -44,15 +44,16 @@ header_pages:
 # list of files to be copied into / on-site
 include:
   - _pages
-  - favicon.ico
+  - LICENSE
 
 # list of files to ignore
 exclude:
   - .gitignore
   - docker-compose.yml
+  - Dockerfile
   - Gemfile
   - Gemfile.lock
-  - LICENSE
   - README.md
+  - TODO.md
   - _posts/00template.md
 
